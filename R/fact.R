@@ -1,9 +1,7 @@
-factorial_num<- function(n){
-  fact<-1
-  for(i in 1:n) {
-    fact<-fact*i
-  }
-  return(fact)
+n <- as.integer(readline("Enter"))
+fact<-1
+{
+  for(i in 1:n)
+    fact<- fact*i
 }
-factorial_num(5)
-
+cat("Factorial:",fact)
